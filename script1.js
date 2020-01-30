@@ -9,6 +9,19 @@
 // #
 
 
+
 for (i = 1; i <= 4; i++) {
-    if (i <= 1)
+    let hashTag = "";
+    for (let j = 1; j <= i; j++) {
+    hashTag = hashTag + "#"
+    }
+    console.log(hashTag);
 }
+for (i = 3; i >= 1; i--) {
+    let hashTag = "";
+    for (let j = 1; j <= i; j++) {
+    hashTag = hashTag + "#"
+    }
+    console.log(hashTag); 
+}
+
