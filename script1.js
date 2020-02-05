@@ -10,14 +10,14 @@
 
 
 
-for (i = 1; i <= 4; i++) {
+for (let i = 1; i <= 4; i++) {
     let hashTag = "";
     for (let j = 1; j <= i; j++) {
     hashTag = hashTag + "#"
     }
     console.log(hashTag);
 }
-for (i = 3; i >= 1; i--) {
+for (let i = 3; i >= 1; i--) {
     let hashTag = "";
     for (let j = 1; j <= i; j++) {
     hashTag = hashTag + "#"
